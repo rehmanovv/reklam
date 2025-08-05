@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rehmanovv Kolleksiyası</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #dbe6ff);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 20px 60px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #2d2d2d;
+      animation: fadeInDown 1s ease;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 40px;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    .link-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 500px;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .site-link {
+      background: #ffffffcc;
+      padding: 16px 22px;
+      border-radius: 14px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .site-link:hover {
+      background: #ffffffee;
+      transform: translateY(-3px);
+    }
+
+    .footer {
+      margin-top: 80px;
+      text-align: center;
+      animation: fadeIn 2s ease;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #333;
+      background: #fff;
+      padding: 10px 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin-top: 10px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .footer a:hover {
+      background: #f2f2f2;
+      transform: scale(1.03);
+    }
+
+    .footer img {
+      width: 20px;
+      height: 20px;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .site-link {
+        font-size: 1rem;
+        padding: 14px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Rehmanovv Kolleksiyası</h1>
+    <p class="subtitle">Sevdiyim və hazırladığım saytlar bir yerdə</p>
+
+    <div class="link-list">
+      <a href="https://rehmanovv.github.io/gpt/" class="site-link" target="_blank">🧠 GPT Cavablayıcı</a>
+      <a href="https://rehmanovv.github.io/-ifre.yaradici/" class="site-link" target="_blank">🔐 Şifrə Generatoru</a>
+      <a href="https://rehmanovv.github.io/saat/" class="site-link" target="_blank">🕒 Canlı Saat</a>
+      <a href="https://rehmanovv.github.io/urek/" class="site-link" target="_blank">❤️ Ürək Animasiya</a>
+    </div>
+
+    <div class="footer">
+      Hazırladı: Rehmanovv | 2025 <br />
+      <a href="https://www.instagram.com/rehmannvv?igsh=N3NzbmxlMWF5bXlx" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+        Sən də öz saytını sifariş et
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
